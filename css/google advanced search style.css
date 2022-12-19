@@ -1,49 +1,15 @@
-.google-search{
-    width: 40%;
-    height: 400px;
-    margin: 250px 450px;
-    position: absolute;
-}
-
 .google-logo{
-    float: left;
-    margin: 0 0 10px 125px;
-    height: 120px;
-    
-}
-
-.search-bar{
-    width: 100%;
-    height: 40px;
-    border: 1px solid rgb(141, 140, 140);
-    border-radius: 50px;
-    float: left;
-    padding-left: 10px;
-    overflow: hidden;
-}
-
-.search-bar:hover{
-    box-shadow: 0 0 5px rgb(167, 166, 166);
-}
-
-.search-btn{
-    float: left;
     width: 100px;
-    height: 40px;
-    background-color: rgb(244, 247, 248);
-    margin: 20px 0 0 265px;
-    border-radius: 5px;
-    border: 1px solid white;
+    height: 50px;
+    position: absolute;
+    float: left;
 }
 
-.search-btn:hover{
-    border: 1px solid rgb(154, 153, 153);
-}
-
-.search-icon{
-    font-size: 15px;
-    float: right;
-    margin: -30px 0 -20px 225px;
+.google-logo img{
+    float: left;
+    height: 30px;
+    width: 80px;
+    margin: 10px;
 }
 
 .goto-google{
@@ -73,4 +39,108 @@
     top: 0;
     position: relative;
     margin-right: 5px;
+}
+
+.advanced-name{
+    float: left;
+    width: 100%;
+    height: 150px;
+}
+
+.advanced-name h2{
+    color: rgb(210, 12, 12);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 60px 0 30px 40px;
+}
+
+.advanced-name hr{
+    color: rgba(245, 242, 242, 0.495);
+    width: 100%;
+}
+
+.subjects{
+    width: 18%;
+    height: auto;
+    float: left;
+}
+
+.subjects h4{
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.subjects ul li{
+    list-style: none;
+    padding:  0 0 25px 0;
+    font-size: 15px;
+}
+
+.fields{
+    width: 42%;
+    height: auto;
+    float: left;
+    margin-top: 85px;
+}
+
+.fields .search-bar{
+    width: 99%;
+    height: 25px;
+    border: 1px solid rgb(203, 202, 202);
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.fields .num-ranging1{
+    width: 45%;
+    height: 25px;
+    border: 1px solid rgb(203, 202, 202);
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.fields .num-ranging2{
+    width: 45%;
+    height: 25px;
+    border: 1px solid rgb(203, 202, 202);
+    overflow: hidden;
+    margin-left: 12px;
+}
+
+.search-bar:hover , .num-ranging2:hover , .num-ranging1:hover{
+    box-shadow: 0 0 5px rgb(167, 166, 166);
+}
+
+.guide{
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+.guide h4{
+    margin-bottom: 40px;
+    color: gray;
+    margin-top: 30px;
+}
+
+.guide ul li{
+    list-style: none;
+    padding:  0 0 26px 0;
+    font-size: 13px;
+    color: rgb(127, 126, 126);
+}
+
+.search-btn{
+    float: left;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(31, 115, 217);
+    color: white;
+    margin: 40px 0 0 265px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-btn:hover{
+    border: 1px solid rgb(6, 6, 6);
 }

@@ -4,27 +4,65 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/google advanced search style.css">
-        <link rel="stylesheet" href="../font/fontawesome-6.2.0-web/css/all.min.css">
+        <script src="https://kit.fontawesome.com/04912253a3.js" crossorigin="anonymous"></script>
         <title>Google advanced search</title>
     </head>
 
     <body>
-        <div class="google-search">
+        <div class="google-logo"><!--google logo-->
             <a href="#">
-                <img class="google-logo" src="../images/google-logo.png" alt="this is google's logo"/></a>
-            <form action="https://www.google.com/search">
-                <input class="search-bar" type="text" name="q">
-                <input class="search-btn" type="submit" value="Google Search">
-            </form>
-            <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <img src="../images/google-logo.png" alt="this is google's logo"/>
+            </a>
         </div>
-        <div class="goto-google">
+        
+        <div class="goto-google"><!--goto google & images-->
             <a href="google images.html">
                 <span class="google-icon"><i class="fa-solid fa-g"></i>oogle images</span>
             </a>
             <a href="google search.html">
                 <span class="google-icon"><i class="fa-solid fa-g"></i>oogle</span>
             </a>
+        </div>
+
+        <div class="advanced-name"><!--google advaned name-->
+            <h2>Advanced Search</h2>
+            <hr>
+        </div>
+
+        <div class="subjects"><!--subjects-->
+            <ul>
+                <h4>Find pages with...</h4>
+                <li>all these words:</li>
+                <li>this exact word or phrase:</li>
+                <li>any of these words:</li>
+                <li>none of these words:</li>
+                <li>numbers ranging from:</li>
+            </ul>
+        </div>
+
+        <div class="fields"><!--fields-->
+            <form action="https://www.google.com/search?hl=en-IR&">
+                <input class="search-bar" type="text" name="as_q">
+                <input class="search-bar" type="text" name="as_epq">
+                <input class="search-bar" type="text" name="as_oq">
+                <input class="search-bar" type="text" name="as_eq">
+                <input class="num-ranging1" type="text" name="as_nlo">
+                <span>to:</span>
+                <input class="num-ranging2" type="text" name="as_nhi">
+
+                <input class="search-btn" type="submit" value="Advanced Search">
+            </form>
+        </div>
+
+        <div class="guide"><!--guide-->
+            <ul>
+                <h4>To do this in the search box.</h4>
+                <li>Type the important words: tri-colour rat terrier</li>
+                <li>Put exact words in quotes: "rat terrier"</li>
+                <li>Type OR between all the words you want: miniature OR standard</li>
+                <li>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</li>
+                <li>Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011</li>
+            </ul>
         </div>
     </body>
 </html>
